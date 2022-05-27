@@ -1,22 +1,21 @@
 import {
   StyleSheet,
   Text,
-  View,
+  SafeAreaView,
   Platform,
   StatusBar,
-  SafeAreaView,
 } from 'react-native';
 import React from 'react';
 
-const HomePage = () => {
+const LogInPage = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>HomePage</Text>
+      <Text>LogInPage</Text>
     </SafeAreaView>
   );
 };
 
-export default HomePage;
+export default LogInPage;
 
 const styles = StyleSheet.create({
   container: {
